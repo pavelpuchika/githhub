@@ -1,0 +1,12 @@
+class per:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+        
+    def pr(self):
+        print(self.name)
+        print(self.age)
+i=per(1,2)
+i.pr()
+print(i.name)
+print(i.age)
